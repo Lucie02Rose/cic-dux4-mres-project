@@ -1,4 +1,4 @@
-# cic-dux4-code
+# cic-dux4-mres-project-code
 This GitHub repository contains all code (Bash/Python/R), files and outputs (tsv/xlsx/csv/txt/pdf/fasta) from the analyses conducted as part of the CIC-DUX4 fusion sarcoma 
 project at The Wellcome Sanger Institute in Professor Sam Behjati's Group.
 The repository is structured numerically (1-15) as methods appear in the thesis.
