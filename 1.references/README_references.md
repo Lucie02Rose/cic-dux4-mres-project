@@ -22,13 +22,14 @@ https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13
 (I would not recommend doing that, as the T2T reference is not snp-optimized so variant calling misses a lot 
 of variants depending on the patient sample - the T2T is European with Neanderthal introgression so if your patient is 
 of that descendence, chances are, you will miss things during variant calling and annotation)
-# For ClinVar liftover, do:
+### For ClinVar liftover, do:
 wget https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/annotation/liftover/clinvar.vcf.gz
 wget https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/annotation/liftover/clinvar.vcf.gz.tbi
-# For dbSNP liftover, do:
+### For dbSNP liftover, do:
 wget https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/annotation/liftover/dbsnp155.vcf.gz
 wget https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/annotation/liftover/dbsnp155.vcf.gz.tbi
 
+## Other files:
 Liftover chain files available at:  https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/
 
 All of the above and more are also found at the actual GitHub of the T2T project: https://github.com/marbl/CHM13 
@@ -58,7 +59,7 @@ Finally, if you would like to view the T2T reference genome in the IGV on the Sa
 3) bsub -I -XF -G yourunixgroup -q yesterday -R 'select[mem>10000] rusage[mem=10000] span[hosts=1]' -M 10000 -n 2 igv.sh 
 4) you can then load the hg38 or T2T reference in the interactive IGV
 
-# The hg38 reference
+~# The hg38 reference
 The hg38 reference with decoy regions is hosted at the National Cancer Institute website:
 https://gdc.cancer.gov/about-data/gdc-data-processing/gdc-reference-files
 while COSMIC is avalible after registration from the online COSMIC database and dbSNP and ClinVar annotations are:
