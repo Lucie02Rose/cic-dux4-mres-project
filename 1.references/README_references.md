@@ -59,7 +59,7 @@ Finally, if you would like to view the T2T reference genome in the IGV on the Sa
 3) bsub -I -XF -G yourunixgroup -q yesterday -R 'select[mem>10000] rusage[mem=10000] span[hosts=1]' -M 10000 -n 2 igv.sh 
 4) you can then load the hg38 or T2T reference in the interactive IGV
 
-~# The hg38 reference
+## The hg38 reference
 The hg38 reference with decoy regions is hosted at the National Cancer Institute website:
 https://gdc.cancer.gov/about-data/gdc-data-processing/gdc-reference-files
 while COSMIC is avalible after registration from the online COSMIC database and dbSNP and ClinVar annotations are:
