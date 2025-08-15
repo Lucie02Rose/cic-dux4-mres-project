@@ -17,8 +17,8 @@ conda activate base
 input_dir="/lustre/scratch126/casm/team274sb/lr26/GIAB"
 output_dir="/lustre/scratch126/casm/team274sb/lr26/GIAB-aligned"
 tmp_dir="$output_dir/tmp"
-reference_fasta="/lustre/scratch126/cellgen/behjati/lr26/T2T/chm13v2.0.fa"
-reference_index="/lustre/scratch126/cellgen/behjati/lr26/T2T/chm13v2.0.mmi"
+reference_fasta="/lustre/scratch126/casm/team274sb/lr26/T2T/chm13v2.0.fa"
+reference_index="/lustre/scratch126/casm/team274sb/lr26/T2T/chm13v2.0.mmi"
 
 ### check if the index or reference exists, if not then make it ###
 ### echo are used as messages written to the -o -e files ###
